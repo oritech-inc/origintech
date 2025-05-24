@@ -1,0 +1,1 @@
+<?php require_once('configs/app.php'); ?><div class="text-center bg-dark text-white border-0 border-top sticky-bottom" style="height: 8svh">    <p class="text-muted border-top py-3 h6 text-uppercase"><?= APP_TRADE?>© <?=date('Y')?> </p></div><script src="<?= APP_ASSETS['js']['jquery']?>"></script><script src="<?= APP_ASSETS['js']['bootstrap']?>"></script>

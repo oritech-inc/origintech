@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+:root{
+    --light-bg: #F3F3E0;
+    --blue-bg: #27548A;
+    --green-bg: #183B4E;
+    --gold-bg: #F2BF6D;
+    --d: 1s;
+    --e: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+body {
+    background: url('./../imgs/bg/main.jpg') no-repeat fixed center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+
+
