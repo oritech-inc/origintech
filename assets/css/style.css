@@ -1,23 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
 
 :root{
     --light-bg: #F3F3E0;
     --blue-bg: #27548A;
     --green-bg: #183B4E;
-    --gold-bg: #F2BF6D;
+    --gold-bg: rgb(147, 132, 42);
     --d: 1s;
     --e: cubic-bezier(0.19, 1, 0.22, 1);
+    font: var(--bs-font-monospace);
 }
 
 body {
-    background: url('./../imgs/bg/main.jpg') no-repeat fixed center;
+    background: url('./../imgs/app/bg/main.png') no-repeat fixed center;
     background-size: cover;
     min-width: 100%;
     min-height: 100%;
     overflow-x: hidden;
 }
 
-
-
+header p {
+    margin-top: 60px !important;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--light-bg);
+}
 
 
